@@ -33,7 +33,8 @@ def main():
     # هنا يجب وضع التوكن الخاص بالبوت المستخرج من BotFather
     # سنقوم ببرمجتها لاحقاً لتقرأ من متغيرات البيئة تلقائياً للحماية
     TOKEN = "YOUR_BOT_TOKEN" 
-    
+    TOKEN = "8579552844:AAEDv9mjionpwXeM0xUj3B2rzjTLHXld5H4"
+
     application = Application.builder().token(TOKEN).build()
 
     # تسجيل الأوامر في البوت
